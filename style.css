@@ -8,12 +8,15 @@
 .head{
     /* transition: all 0.5s; */
     font-size: 38px;
-    transition-delay: .3s;
+    /* transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+    transition: all  ease .5s;
 }
 .head:hover{
     color: blue;
     cursor: default;
-    font-size: 45px;
-    letter-spacing: 5px;
+    font-size: 50px;
+    letter-spacing: 20px;
  
 }
