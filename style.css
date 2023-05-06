@@ -3,3 +3,17 @@
     padding: 0;
     margin: 0;
 }
+
+
+.head{
+    /* transition: all 0.5s; */
+    font-size: 38px;
+    transition-delay: .3s;
+}
+.head:hover{
+    color: blue;
+    cursor: default;
+    font-size: 45px;
+    letter-spacing: 5px;
+ 
+}
